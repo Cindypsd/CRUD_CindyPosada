@@ -25,9 +25,9 @@
         <form id="form">
           <label for="">Escibe aqui</label>
           <br>
-          <textarea name="" id="input" cols="60" rows="5"></textarea>
+          <textarea name="" id="txtNotas" cols="60" rows="5"></textarea>
           <br>
-          <button type="submit" class="buttonPost">Post</button>
+          <button onclick="guardar()" class="btn btn-dark" type="button">Guardar</button>
         </form>
       </div>
     </div>
@@ -35,10 +35,11 @@
 
     <!-- Row PostIts -->
     
-    <div class="row rowPostIt">
+    <div class="row rowPostIt" id="rowPostIt">
 
       <div class="col">
-        <div id="posts">
+        <div id="postIts">
+
           <div class="postit shadow-sm p-3 mb-5 rounded">
             <p class="txtPostIt">Comprar mandado</p>
             <span class="options">
@@ -53,6 +54,7 @@
               </svg>
             </span>
           </div>
+
         </div>
       </div>
       
