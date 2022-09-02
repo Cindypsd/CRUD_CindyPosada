@@ -10,6 +10,45 @@
 body{
   background-image: url(../assets/images/pattern_cross-section_0.5_2_0-0_0_1__ffffff_00000069.png);
   background-size:inherit;
+  /* justify-content: center; */
+}
+
+.containerPost{
+  
+  gap: 10px;
+  background-color: white;
+  width: 90%; 
+}
+
+.rowPostIt{
+  display:flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+#posts{
+  width: 300px;
+}
+
+#posts div{ 
+    /* justify-content: space-between; */
+}
+
+.options{
+  display: flex;
+  gap: 10px;
+}
+
+.postit{
+  background-color: rgb(237, 235, 145);
+  width: 300px;
+  height: 300px;
+  padding: 2em;
+  margin: 3em;
+}
+
+svg{
+  cursor: pointer;
 }
 
 .txtBold{
@@ -17,12 +56,3 @@ body{
   font-weight:bold;
 }
 
-.tblToDo{
-  background-color: white;
-  border: 1em;
-}
-
-.tblNotas{
-  background-color: white;
-  border: 1em;
-}
