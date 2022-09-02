@@ -16,8 +16,14 @@ body{
 .containerPost{
   
   gap: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.801);
   width: 90%; 
+}
+
+.buttonPost{
+  padding: .5em ;
+  border-radius: 1px;
+  font-weight: 400;
 }
 
 .rowPostIt{
@@ -30,9 +36,6 @@ body{
   width: 300px;
 }
 
-#posts div{ 
-    /* justify-content: space-between; */
-}
 
 .options{
   display: flex;
@@ -41,12 +44,18 @@ body{
 
 .postit{
   background-color: rgb(237, 235, 145);
+  box-shadow: 3px rgba(0, 0, 0, 0.589);
   width: 300px;
   height: 300px;
   padding: 2em;
   margin: 3em;
+  
 }
 
+.txtPostIt{
+  font-family:'Amatic SC', sans-serif ;
+  font-size: 1.5em;
+}
 svg{
   cursor: pointer;
 }
