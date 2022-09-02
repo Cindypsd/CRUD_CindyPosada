@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Slab:wght@100;300;700&display=swap');
+
+*{
+  padding: 0;
+  margin:0;
+  font-family: 'Roboto Slab', serif;
+}
+
+body{
+  background-image: url(../assets/images/pattern_cross-section_0.5_2_0-0_0_1__ffffff_00000069.png);
+  background-size:inherit;
+}
+
+.txtBold{
+  text-align: center;
+  font-weight:bold;
+}
+
+.tblToDo{
+  background-color: white;
+  border: 1em;
+}
+
+.tblNotas{
+  background-color: white;
+  border: 1em;
+}
