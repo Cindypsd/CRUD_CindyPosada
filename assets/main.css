@@ -68,7 +68,7 @@ svg{
 
 
 footer{
-  background-color: rgb(208, 249, 217);
+  background-color: rgba(208, 249, 217, 0.592);
   position: fixed;
   bottom: 0;
   width: 100%;
