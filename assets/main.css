@@ -8,9 +8,9 @@
 }
 
 body{
-  background-image: url(../assets/images/graph-paper.jpg);
+  background-image: url(../assets/images/fondo_notebook.png);
  background-repeat: repeat;
- background-size: 22%;
+ background-size: 40%;
   /* justify-content: center; */
 }
 
