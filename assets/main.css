@@ -47,6 +47,11 @@ body{
   margin: 1em;
 }
 
+.postit:hover{
+  width: 350px;
+  height: 350px;
+}
+
 .txtPostIt{
   /* font-family:'Amatic SC', sans-serif ; */
   font-size: 1em;
